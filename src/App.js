@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <h1>
-        This is the Heading For Dev tharoon
+        This is the Heading
       </h1>
       <BrowserRouter>
         <Routes>
