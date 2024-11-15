@@ -1,23 +1,20 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import HomePage from './Components/HomePage';
-import CheckOut from './Components/CheckOut';
+
 
 function App() {
 
     
   return (
     <div>
-  
-      <BrowserRouter>
-        <Routes>
+  <BrowserRouter>
+       <Routes>
           <Route path='/' element={<HomePage/>}></Route>
-          <Route path='/CheckOut' element={<CheckOut/>}></Route>
-        </Routes>
+          
+       </Routes>
       </BrowserRouter>
-
     </div>
-    
   );
 }
 
