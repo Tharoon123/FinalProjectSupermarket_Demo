@@ -5,7 +5,7 @@ import CheckOut from './Components/CheckOut';
 
 function App() {
 
-    //asdfadsfadsf
+    
   return (
     <div>
   
